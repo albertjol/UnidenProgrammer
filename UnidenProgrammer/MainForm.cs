@@ -11,11 +11,11 @@ using System.Windows.Forms;
 
 namespace UnidenProgrammer
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
         private bool _connected = false;
         private SerialPort _serialPort;
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
         }
